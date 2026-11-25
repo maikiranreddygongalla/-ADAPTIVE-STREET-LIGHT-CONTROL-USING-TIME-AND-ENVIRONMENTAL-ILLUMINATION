@@ -16,8 +16,8 @@ This project implements a hybrid **Adaptive Street Light Control System** on an 
 
 ## 2. Block Diagram & Workflow
 ### Block Diagram
-*(Upload your block diagram image to `Hardware_and_Circuit/block_diagram.png` and link it below)*
-![Block Diagram](Hardware_and_Circuit/block_diagram.png)
+*(Upload your block diagram image to `Adaptive Street Light Control Diagram (1).png` and link it below)*
+![Block Diagram](Adaptive Street Light Control Diagram (1).png)
 
 ### Operational Workflow
 1. **Initialization:** Configure PLL (`60 MHz` CCLK from `12 MHz` crystal), GPIO directions, `16x2` LCD, `10-bit ADC0`, `4x4` matrix keypad, internal RTC, and `EINT0` via the Vectored Interrupt Controller (VIC).
@@ -55,8 +55,6 @@ This project implements a hybrid **Adaptive Street Light Control System** on an 
 ---
 
 ## 4. Circuit Diagram & Schematics
-*(Upload your Proteus schematic and hardware kit photos into `Hardware_and_Circuit/`)*
-* **Proteus Schematic:** `Hardware_and_Circuit/circuit_diagram.png`
 * **Hardware Kit Setup:** `Hardware_and_Circuit/hardware_kit.jpg`
 
 ---
